@@ -1,6 +1,6 @@
 day = "Saturday"
-temperature = 30
-raining = False
+temperature = 26
+raining = True
 
 # if day == "Saturday" and temperature > 27 and not raining:
 #     print("GO SWIMMING!")
