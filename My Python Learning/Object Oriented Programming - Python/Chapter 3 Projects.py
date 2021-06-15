@@ -53,7 +53,9 @@ while i < count:
 print()
 
 print("4. Bounciness Index")
-def bouncinessIndex():
+
+
+def bounciness_index():
     height = float(input("How high was the ball dropped from: "))
     bounce_index = float(input("Enter the bounciness index: "))
     num_of_bounces = float(input("How many times did the ball bounce: "))
@@ -68,5 +70,5 @@ def bouncinessIndex():
         print("Total distance traveled was: ", distance)
 
 
-bouncinessIndex()
+bounciness_index()
 print()
